@@ -1,5 +1,10 @@
-import Image from "next/image";
+import UI from "./ui";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Woong box Image",
+};
 
 export default function Home() {
-  return <main>드랍 박스</main>;
+  return <UI />;
 }
