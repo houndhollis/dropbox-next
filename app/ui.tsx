@@ -17,7 +17,7 @@ export default function UI() {
         setSearchInput={setSearchInput}
       />
       <FileDragDropZone />
-      <ImageList />
+      <ImageList searchInput={searchInput} />
     </div>
   );
 }
